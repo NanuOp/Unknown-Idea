@@ -1,0 +1,23 @@
+#Requirements
+pip install pandas_market_calendars
+pip install pandas
+pip install bselib
+pip install nselib
+
+
+
+bselib
+nselib
+time
+
+#Bsedata
+from bsedata.bse import BSE
+import io
+import pandas as pd
+
+#realtime data
+import time
+import requests
+from bs4 import BeautifulSoup
+
+
